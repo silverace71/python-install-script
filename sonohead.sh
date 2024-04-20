@@ -11,6 +11,3 @@ cd Python-$pver
 ./configure --enable-optimizations
 make
 sudo make install
-echo "Your Python version is"
-sleep 1
-python3 --version
